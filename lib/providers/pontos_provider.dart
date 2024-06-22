@@ -1,5 +1,5 @@
 import 'dart:io';
-import 'package:ficha_de_ponto/models/ponto.dart';
+import 'package:ficha_de_ponto_pk/ficha_de_ponto_pk.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:path_provider/path_provider.dart';
@@ -8,7 +8,7 @@ import 'package:path_provider/path_provider.dart';
 class PontosProvider with ChangeNotifier {
   List<Ponto> _pontos = [];
   int _nextId = 1;
-
+  
   List<Ponto> get pontos => _pontos;
 
   Future<void> adicionarPonto(String nome, bool isSaida) async {

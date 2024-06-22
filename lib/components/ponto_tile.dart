@@ -1,4 +1,4 @@
-import 'package:ficha_de_ponto/models/ponto.dart';
+import 'package:ficha_de_ponto_pk/ficha_de_ponto_pk.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 

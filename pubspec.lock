@@ -73,6 +73,15 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.2"
+  ficha_de_ponto_pk:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: main
+      resolved-ref: "3c92913576f3eadb9d16e4a3bd2b97dadadadbbb"
+      url: "https://github.com/StefanSalla/ficha_de_ponto_pk.git"
+    source: git
+    version: "0.0.1"
   file_selector_linux:
     dependency: transitive
     description:
@@ -137,7 +146,7 @@ packages:
     source: sdk
     version: "0.0.0"
   http:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: http
       sha256: "761a297c042deedc1ffbb156d6e2af13886bb305c2a343a4d972504cd67dd938"
